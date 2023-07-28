@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Brust</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- tailwind custom classes -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    * {
+        font-family:'Lato', sans-serif;
+    }
+  </style>
+</head>
+<body>
+    <header class="bg-[#F85559] mx-36 rounded-[600px] mt-3">
+        <nav class="flex justify-between items-center py-9 text-[white] ">
+            <div class="">
+                <a class="p-5" href="">Home</a>
+                <a class="p-3" href="">About Us</a>
+                <a class="p-3" href="">Shop</a>
+                <a class="p-3" href="">All Fruits</a>
+            </div>
+            <div class="flex items-center">
+                <img class="pr-3" src="images/logo.png" alt="">
+                <div>
+                    <h3>Fruit Burst</h3>
+                </div>
+            </div>
+            <div class="p-4">
+                <input type="text" placeholder="Search Here" class="input input-bordered w-24 md:w-auto px-7" />
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- banner-1 -->
+        <section class="bg-[url(images/banner2.png)] text-center mt-10 w-4/5 mx-auto ">
+            <div>
+                <div>
+                    <h2 class=" text-7xl font-extrabold pt-20 text-[white]">Exotic tastes at your doorstep</h2>
+                </div>
+                <div>
+                    <p class="text-[white] pt-4">We supply highly quality organic products</p>
+                </div>
+                <div class="pb-40 pt-4"><button class="btn btn-error">Error</button></div>
+            </div>
+        </section>
+        <!-- deal section -->
+        <section class="flex justify-between px-60 pt-36">
+            <div>
+                <h4 class="text-2xl font-extrabold">Deal of the day</h4>
+                <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <div>
+                <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:15;"></span>
+                      </span>
+                      days
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:10;"></span>
+                      </span>
+                      hours
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:24;"></span>
+                      </span>
+                      min
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:22;"></span>
+                      </span>
+                      sec
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!-- cards -->
+        <section class="flex justify-between px-60 pt-36">
+            <div>
+                <img src="images/fruit6.png" alt="">
+                <h4 class="text-2xl font-bold">12.90$ - 18.85$</h4>
+                <p>Apples</p>
+                    <i class="fa-solid fa-star" style="color: #f1f50a;"></i>
+                    <i class="fa-regular fa-star" style="color: #f1f50a;"></i>
+                    <i class="fa-regular fa-star" style="color: #f1f50a;"></i>
+                    <i class="fa-regular fa-star" style="color: #f1f50a;"></i>
+                    <p>Details</p>
+            </div>
+            <div>
+                <img src="images/fruit7.png" alt="">
+                <h4 class="text-2xl font-bold">12.90$ - 18.85$</h4>
+                <p>Apples</p>
+                    <i class="fa-solid fa-star" style="color: #f1f50a;"></i>
+                    <i class="fa-regular fa-star" style="color: #f1f50a;"></i>
+                    <i class="fa-regular fa-star" style="color: #f1f50a;"></i>
+                    <i class="fa-regular fa-star" style="color: #f1f50a;"></i>
+                    <p>Details</p>
+            </div>
+            <div>
+                <img src="images/fruit8.png" alt="">
+                <h4 class="text-2xl font-bold">12.90$ - 18.85$</h4>
+                <p>Apples</p>
+                    <i class="fa-solid fa-star" style="color: #f1f50a;"></i>
+                    <i class="fa-regular fa-star" style="color: #f1f50a;"></i>
+                    <i class="fa-regular fa-star" style="color: #f1f50a;"></i>
+                    <i class="fa-regular fa-star" style="color: #f1f50a;"></i>
+                    <p>Details</p>
+            </div>
+            <div>
+                <img src="images/fruit9.png" alt="">
+                <h4 class="text-2xl font-bold">12.90$ - 18.85$</h4>
+                <p>Apples</p>
+                    <i class="fa-solid fa-star" style="color: #f1f50a;"></i>
+                    <i class="fa-regular fa-star" style="color: #f1f50a;"></i>
+                    <i class="fa-regular fa-star" style="color: #f1f50a;"></i>
+                    <i class="fa-regular fa-star" style="color: #f1f50a;"></i>
+                    <p>Details</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-black text-[white] text-center py-36 mt-5">
+        <div class="mx-auto">
+            <div class="flex items-center justify-center pb-5">
+                <img class="pr-3" src="images/logo.png" alt="">
+                <div>
+                    <h3>Fruit Burst</h3>
+                </div>
+            </div>
+        </div>
+        <div class="pb-5">
+            <a class="p-5" href="">Home</a>
+            <a class="p-3" href="">About Us</a>
+            <a class="p-3" href="">Shop</a>
+            <a class="p-3" href="">All Fruits</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-twitter p-2" style="color: #0b61f4;"></i>
+            <i class="fa-brands fa-facebook-f p-2" style="color: #0b61f4;"></i>
+            <i class="fa-brands fa-youtube p-2" style="color: #fd263b;"></i>
+        </div>
+    </footer>
+</body>
+</html>
+
